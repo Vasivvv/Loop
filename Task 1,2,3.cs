@@ -1,21 +1,23 @@
 ﻿#region
-//int eded, sum = 0;
-//Console.Write("Ededi daxil edin:");
-//eded = Convert.ToInt32(Console.ReadLine());
-//for (int i = 2; i <= eded; i *= 2)
+//int eded = 64;
+//int pow = 0;
+//while (eded >= 2)
 //{
-
-//    if (i % 2 == 0)
-//        sum++;
+//    eded = eded / 2;
+//    pow++;
 //}
-//Console.WriteLine(sum);
-//if ((Math.Pow(2, sum + 1)) - eded < eded - (Math.Pow(2, sum)))
+//if (eded == 1)
 //{
-//    Console.WriteLine(sum + 1);
+//    Console.WriteLine(pow + "in quvvetidir");
 //}
-//if ((Math.Pow(2, sum + 1)) - eded >= eded - (Math.Pow(2, sum)))
+//else if (eded <= 1.5)
 //{
-//    Console.WriteLine(sum);
+//    Console.WriteLine(pow + "in quvvetine yaxindi");
+//}
+//else
+//{
+//    pow++;
+//    Console.WriteLine(pow + "in quvvetidir");
 //}
 #endregion
 
